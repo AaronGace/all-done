@@ -1,0 +1,641 @@
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivoblack/v17/HTxqL289NzCGg4MzN6KJ7eW6OYs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBshds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABsxds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HDfsxds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBsxds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCzsxds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBftBds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBmtBds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABtBds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HAotBds.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDJp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDNp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTajNp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTBjNp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT6jRp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDRp8A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v18/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTnTRp8A.ttf) format('truetype');
+}
+.hidden {
+  display: none !important;
+}
+@media (max-width: 551px) {
+  .left-home {
+    display: none;
+  }
+  .section-articles > div {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .barra {
+    width: 94% !important;
+    margin-left: 3% !important;
+    margin-top: 20px;
+  }
+  .section-articles {
+    width: 100% !important;
+    min-height: 530px !important;
+    gap: 20px;
+    padding-top: 70px;
+  }
+  .right-home {
+    width: 100%;
+    height: 98%;
+    padding: 20px 0px 0 0;
+  }
+  .add-task {
+    width: 94% !important;
+    margin-left: 3%;
+  }
+  .barraCarga {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 13px;
+  }
+  .title {
+    margin-top: 10px;
+    width: 98% !important;
+    margin-left: 1%;
+  }
+  .slider-login {
+    display: none !important;
+  }
+  .bottom-login > input {
+    width: 343px !important;
+  }
+  .form-reg-section > div {
+    width: 96% !important;
+  }
+  .form-reg-section > div > div > input {
+    width: 324px !important;
+  }
+}
+body {
+  margin: 0;
+}
+.login-section {
+  display: flex;
+  justify-content: center;
+}
+.login-block {
+  max-width: 1800px;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: 20px;
+}
+.slider-login {
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.slider-login > img {
+  width: 95%;
+  height: 95%;
+}
+.form-login {
+  max-width: 663px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.frame-login {
+  height: 748px;
+  width: 663px;
+}
+.up-frame {
+  height: 262px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
+.bottom-login {
+  display: flex;
+  height: 242px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 33px;
+}
+.button-reg {
+  text-decoration: none;
+  background-color: #E06C6C;
+  width: 300px;
+  height: 55px;
+  display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  transition: 0.3s;
+  border: 1px solid #E06C6C;
+}
+.button-reg:hover {
+  background-color: #ffffff;
+  border: 1px solid #E06C6C;
+  color: #E06C6C;
+  transition: 0.3s;
+}
+.button-log {
+  text-decoration: none;
+  width: 300px;
+  border: 1px solid #E06C6C;
+  height: 55px;
+  display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: #E06C6C;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.button-log:hover {
+  background-color: #E06C6C;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.bottom-login > input {
+  width: 450px;
+  height: 55px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #f5f5f5;
+  padding: 0 0 0 14px;
+}
+.login-extra {
+  height: 100%;
+  width: 663px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 76px;
+}
+.login-extra > p {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.login-extra > p > a {
+  text-decoration: none;
+  color: #E06C6C;
+}
+.blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.263);
+  backdrop-filter: blur(2px);
+}
+.form-reg-section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.form-reg-section > div {
+  width: 700px;
+  height: 779px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+.cross {
+  width: 88%;
+  height: 20px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: initial !important;
+}
+.cross > a:hover {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.cross > a > img {
+  width: 20px;
+}
+.form-reg-section > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-reg-section > div > div > label {
+  font-size: 20px;
+  padding: 0 0 0 7px;
+}
+.form-reg-section > div > div > input {
+  width: 462px;
+  height: 60px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #f5f5f5;
+  padding: 0 14px 0 14px;
+  font-size: 17px;
+}
+.form-reg-section > div > a {
+  margin-top: 36px;
+}
+.alert {
+  color: #E06C6C;
+}
+/* --------------------------------------- Home ---------------------------------------- */
+.header-home {
+  height: 65px;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+.header-home > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.header-home > div > a {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  background-color: #E06C6C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.header-home > div > p {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 20px;
+  color: #646464;
+}
+.section-home {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  gap: 20px;
+}
+.left-home {
+  max-width: 290px;
+  width: 100%;
+  height: 96%;
+  margin-top: 1%;
+  border: 2px solid #71717133;
+  border-radius: 10px;
+}
+.right-home {
+  width: 100%;
+  height: 98%;
+  padding: 0 ;
+}
+.title {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.title > h2 {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 20px;
+  padding: 0 0 0 10px ;
+}
+.section-articles {
+  width: 70%;
+  min-height: 530px;
+  gap: 20px;
+  padding-top: 70px;
+}
+.section-articles > div {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.section-articles > div > article {
+  width: 250px;
+  min-height: 330px;
+  border: 1px solid #E06C6C;
+  border-radius: 10px;
+}
+.section-articles > div > article > H3 {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  font-size: 16px;
+  color: #646464;
+  padding: 0 0 0 20px;
+}
+.task > a {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 16px;
+  color: #f5f5f5;
+  text-decoration: none;
+  background-color: rgba(224, 108, 108, 0.8);
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.task {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.add-task {
+  width: 350px;
+  height: 35px;
+  background-color: #E06C6C;
+  text-decoration: none;
+  color: white;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.form-tarea-section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.form-tarea-section > div {
+  width: 700px;
+  height: 392px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+.form-tarea-section > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-tarea-section > div > div > label {
+  font-size: 20px;
+  padding: 0 0 0 7px;
+}
+.form-tarea-section > div > div > input {
+  width: 462px;
+  height: 60px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #f5f5f5;
+  padding: 0 14px 0 14px;
+  font-size: 17px;
+}
+.form-tarea-section > div > a {
+  margin-top: 36px;
+}
+.barraCarga {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  width: 90%;
+  align-items: flex-end;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 13px;
+}
+.barra {
+  width: 400px;
+  height: 15px;
+  background-color: rgba(224, 108, 108, 0.5);
+  border-radius: 20px;
+}
+.barra > div {
+  width: 50%;
+  height: 15px;
+  background-color: #E06C6C;
+  border-radius: 20px;
+}
